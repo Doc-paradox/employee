@@ -13,10 +13,10 @@ app.use(bodyParser.json());
 app.use(cors());
 
 const db = mysql.createConnection({
-    host: 'localhost',
-    user: 'root',
-    password: 'root',
-    database: 'employee_database',
+    host: 'budsirekuv46bhs9ttyc-mysql.services.clever-cloud.com',
+    user: 'ugsvjt9dhgpseg2n',
+    password: 'V19jIbxfP8M51RdebJDF',
+    database: 'budsirekuv46bhs9ttyc',
   });
   
   // Connect to MySQL
